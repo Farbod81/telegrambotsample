@@ -1,3 +1,8 @@
+
+# you should see this text in new commit and push.
+
+
+
 # PART 1
 import requests
 import json
@@ -104,8 +109,6 @@ def read_json(filename = "contactlist.json"):           # write_json and read_js
 write_json({}) # delete all the previous data. it's optional.
 # app.run(debug=True) # we can use debuge if we want to run it on system and not on the server.
 app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
-
-
 
 
 
