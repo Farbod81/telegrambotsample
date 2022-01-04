@@ -1,7 +1,4 @@
 
-# you should see this text in new commit and push.
-
-
 
 # PART 1
 import requests
